@@ -2,16 +2,12 @@ import zipfile
 import os
 from shutil import copyfile
 
-
 orig_dir_path = 'C:/temp/docx/org/' #Оригиналы
 extracted_dir_path = 'C:/temp/docx/extracted/' #распакованные
 ready_for_copy_dir_path = 'C:/temp/docx/ready_for_copy/'
 final_dir_path = 'C:/temp/docx/final/'
-
 single_example = 'C:/temp/docx/example/doc1.docx'
 doc_sufix = '/word/document.xml'
-
-
 name_without_extension_list = []
 
 #Распаковываем оригинальные файлы
