@@ -2,6 +2,7 @@ import zipfile
 import os
 from shutil import copyfile
 
+
 orig_dir_path = 'C:/temp/docx/org/' #Оригиналы
 extracted_dir_path = 'C:/temp/docx/extracted/' #распакованные
 ready_for_copy_dir_path = 'C:/temp/docx/ready_for_copy/'
