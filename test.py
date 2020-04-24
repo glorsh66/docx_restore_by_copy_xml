@@ -46,19 +46,3 @@ for f in name_without_extension_list:
             z.write(os.path.join(root,file))         # Создание относительных путей и запись файлов в архив
     z.close()
     print("Файл успешно преобразован в docx")
-    
-
- 
-    
-#дОРАБОТАТЬ    
-#os.chdir("D:\\restored\\other\\Documents\\docx_copy\\example\\")
-#z = zipfile.ZipFile('D:/spam.zip', 'w')        # Создание нового архива
-#for root, dirs, files in os.walk('.'): # Список всех файлов и папок в директории folder
-#    for file in files:
-#       z.write(os.path.join(root,file))         # Создание относительных путей и запись файлов в архив
-#z.close()
-
-
-#import zipfile
-#with zipfile.ZipFile('D:/spam.zip',"r") as zip_ref:
-#    zip_ref.extractall('D:/spam')
